@@ -63,4 +63,276 @@ footer {
 .service h2 {
     margin-bottom: 10px;
 }
+/* Contact */
+.contact {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.contact textarea {
+    min-height: 100px;
+}
+
+.contact button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Infos de contact */
+.contact-info {
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo-zone {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-zone img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.infos {
+    flex: 1;
+}
+
+.infos h2 {
+    margin-bottom: 10px;
+}
+
+.infos a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ================= CONTACT INFOS ================= */
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo-zone {
+    width: 160px;
+    height: 160px;
+    border: 2px dashed #bbb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.photo-zone img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.infos {
+    flex: 1;
+}
+
+.infos h2 {
+    margin-bottom: 15px;
+}
+
+.infos p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.infos i {
+    color: #2c3e50;
+    margin-right: 8px;
+}
+
+.infos a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* WhatsApp */
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.whatsapp-btn i {
+    margin-right: 5px;
+}
+
+/* ================= FORMULAIRE ================= */
+
+.contact {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.contact textarea {
+    min-height: 120px;
+}
+
+.contact button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ================= RESPONSIVE MOBILE ================= */
+
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .infos {
+        text-align: left;
+    }
+}
+/* ================= CARTE ================= */
+
+.map {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.map h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+}
+/* ================= PORTFOLIO ================= */
+
+header p {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.about, .skills, .projects, .objective {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Compétences */
+.skill-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 220px;
+    text-align: center;
+}
+
+.skill i {
+    font-size: 40px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Projets */
+.projects ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.projects li {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .skill-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 

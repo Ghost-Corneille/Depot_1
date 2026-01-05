@@ -1,45 +1,92 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
-    <title>Mon site statique</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Portfolio | Sabin Kaleta Corneille</title>
 
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
 <body>
 
-    <header>
-        <h1>Bienvenue sur mon site</h1>
-        <nav>
-            <a href="#">Accueil</a>
-            <a href="services.html">Services</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
+<header>
+    <h1>KA/DEV Plateforme</h1>
+    <p>Développeur Desktop · Mobile · Web</p>
 
-    <main>
-        <section>
-            <h2>À propos</h2>
-            <p>
-                Ceci est un site statique créé avec HTML et CSS.
-            </p>
-        </section>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
 
-        <section>
-            <h2>Nos services</h2>
-            <ul>
-                <li>Développement web</li>
-                <li>Conception de systèmes d'information</li>
-                <li>Maintenance</li>
-            </ul>
-        </section>
-    </main>
+<main>
 
-    <footer>
-        <p>© 2026 - Mon site statique</p>
-    </footer>
+    <!-- PRESENTATION -->
+    <section class="about">
+        <h2>À propos de moi</h2>
+        <p>
+            Je suis un développeur passionné par la conception des applications
+            informatiques et des systèmes d’information.  
+            Je m’intéresse particulièrement aux solutions numériques utiles
+            au développement des entreprises et des services publics.
+        </p>
+    </section>
+
+    <!-- COMPETENCES -->
+    <section class="skills">
+        <h2>Compétences</h2>
+
+        <div class="skill-list">
+            <div class="skill">
+                <i class="fas fa-desktop"></i>
+                <h3>Desktop</h3>
+                <p>Applications Windows (Java, C#, Python)</p>
+            </div>
+
+            <div class="skill">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile</h3>
+                <p>Applications Android (Java, Flutter)</p>
+            </div>
+
+            <div class="skill">
+                <i class="fas fa-globe"></i>
+                <h3>Web</h3>
+                <p>HTML, CSS, JavaScript, PHP</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="projects">
+        <h2>Projets réalisés</h2>
+
+        <ul>
+            <li>✔️ Site web vitrine statique</li>
+            <li>✔️ Application de gestion de stock</li>
+            <li>✔️ Projet académique de système d’information</li>
+            <li>✔️ Projet en cours : Application de commande de taxi 🚕</li>
+        </ul>
+    </section>
+
+    <!-- OBJECTIF -->
+    <section class="objective">
+        <h2>Objectif professionnel</h2>
+        <p>
+            Mettre mes compétences en développement informatique
+            au service des entreprises et contribuer à la digitalisation
+            des services en République Démocratique du Congo.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Portfolio Sabin Kaleta Corneille</p>
+</footer>
 
 </body>
-
 </html>

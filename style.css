@@ -334,5 +334,31 @@ header p {
         align-items: center;
     }
 }
+/* ================= PROJET TAXI ================= */
+
+.taxi-section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.actors {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.actor {
+    width: 220px;
+    text-align: center;
+}
+
+.actor i {
+    font-size: 40px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
 
 

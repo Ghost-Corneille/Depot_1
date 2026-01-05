@@ -65,15 +65,17 @@
         <section class="contact">
             <h2>Formulaire de contact</h2>
 
-            <form>
+            <form action="contact.php" method="POST">
+
                 <label>Nom</label>
-                <input type="text" placeholder="Votre nom">
+                <input type="text" name="nom" required>
 
                 <label>Email</label>
-                <input type="email" placeholder="Votre email">
+                <input type="email" name="email" required>
 
                 <label>Message</label>
-                <textarea placeholder="Votre message"></textarea>
+                <textarea name="message" required></textarea>
+
 
                 <button type="submit">Envoyer</button>
             </form>
